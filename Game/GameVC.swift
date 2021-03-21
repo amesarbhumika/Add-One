@@ -19,12 +19,12 @@ class GameVC: UIViewController, UITextFieldDelegate
     	var level: Int = 0
     
     	@IBOutlet weak var lblScore: UILabel!
-   	@IBOutlet weak var lblTime: UILabel!
+   	    @IBOutlet weak var lblTime: UILabel!
     	@IBOutlet weak var lblQuestion: UILabel!
     	@IBOutlet weak var txtAnswer: UITextField!
     	@IBOutlet weak var imgCheckAns: UIImageView!
     
-//MARK: - VC LIFE CYCLE
+        //MARK: - VC LIFE CYCLE
 
     	override func viewDidLoad()
     	{
@@ -38,13 +38,13 @@ class GameVC: UIViewController, UITextFieldDelegate
         		txtAnswer.delegate = self
     	}
     
-override func viewWillAppear(_ animated: Bool) 
-{
+        override func viewWillAppear(_ animated: Bool) 
+        {
         		super.viewWillAppear(false)
         		checkLevel()
-}
+        }
     
-//MARK: - FUNCTION METHODS
+        //MARK: - FUNCTION METHODS
 
     	func checkLevel()
     	{
@@ -66,7 +66,7 @@ override func viewWillAppear(_ animated: Bool)
 
     	}
     	
-func setRandomNumberLabel()
+        func setRandomNumberLabel()
     	{
         		lblQuestion?.text = generateRandomString()
     	}
@@ -88,7 +88,7 @@ func setRandomNumberLabel()
         		lblScore?.text = "Score\n\(score)"
     	}
     
-//MARK: - ACTION METHODS
+        //MARK: - ACTION METHODS
 
     	@IBAction private func textFieldDidChange(textField: UITextField)
     	{
@@ -130,7 +130,7 @@ func setRandomNumberLabel()
    Why are we adding it to the queue? Because if we will delete the answer as soon as the question changes, we won’t be able to see the fourth digit entered by us on the screen. 
    So, we are deleting the answer after 3 seconds of delay. */
 
-DispatchQueue.main.asyncAfter(deadline: .now() + 0.3)
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3)
         	{
             	self.txtAnswer.text = ""
             	self.imgCheckAns.image = nil
@@ -186,6 +186,7 @@ DispatchQueue.main.asyncAfter(deadline: .now() + 0.3)
             }
         }
     }
+    
     func updateTimeLabel()
     {
         if(lblTime != nil)
