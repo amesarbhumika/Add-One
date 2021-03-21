@@ -21,21 +21,20 @@ I got inspired by the concept of the game and thought to extend it furthur by ad
 2 + 1 = 3⁣ 
 7 + 1 = 8⁣ 
 5 + 1 = 6⁣⁣
-3 + 1 = 4⁣⁣
-⁣
+3 + 1 = 4
+
 That is, 3864⁣⁣
-⁣⁣
+⁣
 🔅Levels🔅⁣⁣
-⁣⁣
+
 🔶Easy: Player gets 90 seconds. If you enter right answer score gets increased by 1. As this is easy level, you have no disadvantage on entering the wrong answer. No score cut on wrong answer. Enjoy!⁣⁣
-⁣⁣
+
 🔶Medium: Player gets 60 seconds. If you enter right answer score gets increased by 1 and gets decreased by 1 on entering the wrong answer. Be careful!⁣⁣
-⁣⁣
+
 🔶Hard: Player gets 30 seconds. If you enter right answer score gets increased by 1 and gets decreased by 2 on entering the wrong answer. Be very careful!
 
-
 ⬇️Features⬇️⁣⁣
-⁣⁣
+
 ✔️Nature lovers are surely going to fall for the eye - catching User Interface of Add One!⁣⁣
 
 ✔️It will help users speed up their calculation levels by having a limited time to answer.⁣⁣
