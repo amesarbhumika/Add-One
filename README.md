@@ -1,6 +1,7 @@
 # Add-One
 Add One is the mini - game for iPhone users which you can open up and play in your free time. You can easily guess from the name what you are supposed to do. Yeah, you just need to go on adding one to the random digits popping up on the screen! Simple yet Addictive game!⁣⁣
 ⁣⁣
+
 ⬇️Idea⬇️
 
 🔅Add One is originally taught and developed by Reinder de Vries at LearnAppMaking. 
@@ -10,6 +11,7 @@ Add One is the mini - game for iPhone users which you can open up and play in yo
 🔅Reinder's Add One: https://learnappmaking.com/creating-a-simple-ios-game-with-swift-in-xcode/
 
 I got inspired by the concept of the game and thought to extend it furthur by adding levels to Add One! :) 
+
 
 ⬇️Objective⬇️⁣⁣
 ⁣⁣
@@ -30,6 +32,7 @@ That is, 3864⁣⁣
 🔶Medium: Player gets 60 seconds. If you enter right answer score gets increased by 1 and gets decreased by 1 on entering the wrong answer. Be careful!⁣⁣
 ⁣⁣
 🔶Hard: Player gets 30 seconds. If you enter right answer score gets increased by 1 and gets decreased by 2 on entering the wrong answer. Be very careful!
+
 
 ⬇️Features⬇️⁣⁣
 ⁣⁣
