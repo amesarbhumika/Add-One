@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F61AE93C2475C6B000FF444D /* LevelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61AE93B2475C6B000FF444D /* LevelVC.swift */; };
+		F6C6D9CF24451ADE0055EEA9 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C6D9CE24451ADE0055EEA9 /* GameVC.swift */; };
 		F6CC695C24420E8100ED837C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC695B24420E8100ED837C /* AppDelegate.swift */; };
 		F6CC695E24420E8100ED837C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC695D24420E8100ED837C /* ViewController.swift */; };
 		F6CC696124420E8100ED837C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6CC695F24420E8100ED837C /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F61AE93B2475C6B000FF444D /* LevelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelVC.swift; sourceTree = "<group>"; };
+		F6C6D9CE24451ADE0055EEA9 /* GameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
 		F6CC695824420E8100ED837C /* Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6CC695B24420E8100ED837C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6CC695D24420E8100ED837C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,10 +60,12 @@
 			children = (
 				F6CC695B24420E8100ED837C /* AppDelegate.swift */,
 				F6CC695D24420E8100ED837C /* ViewController.swift */,
+				F6C6D9CE24451ADE0055EEA9 /* GameVC.swift */,
 				F6CC695F24420E8100ED837C /* Main.storyboard */,
-				F6CC696224420E8100ED837C /* Assets.xcassets */,
+				F61AE93B2475C6B000FF444D /* LevelVC.swift */,
 				F6CC696424420E8100ED837C /* LaunchScreen.storyboard */,
 				F6CC696724420E8100ED837C /* Info.plist */,
+				F6CC696224420E8100ED837C /* Assets.xcassets */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6CC695E24420E8100ED837C /* ViewController.swift in Sources */,
+				F61AE93C2475C6B000FF444D /* LevelVC.swift in Sources */,
+				F6C6D9CF24451ADE0055EEA9 /* GameVC.swift in Sources */,
 				F6CC695C24420E8100ED837C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,9 +192,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -233,9 +243,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -258,6 +270,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=*]" = "";
 				INFOPLIST_FILE = Game/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bhumikaamesar.Game;
@@ -270,6 +286,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=*]" = "";
 				INFOPLIST_FILE = Game/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bhumikaamesar.Game;
@@ -297,6 +317,7 @@
 				F6CC696C24420E8100ED837C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

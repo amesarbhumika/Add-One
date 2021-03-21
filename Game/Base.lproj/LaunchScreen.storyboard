@@ -1,27 +1,74 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="17G65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="lOU-NH-sKP">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="EHf-IW-A2E">
+        <scene sceneID="He5-nB-8ax">
             <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                <viewController id="lOU-NH-sKP" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
-                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                        <viewControllerLayoutGuide type="top" id="hRC-Dm-o5E"/>
+                        <viewControllerLayoutGuide type="bottom" id="PQK-Tm-6ym"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                    <view key="view" contentMode="scaleToFill" id="H14-Nn-Igf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nature" translatesAutoresizingMaskIntoConstraints="NO" id="2bH-iP-Oqf">
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add One" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V8G-qb-AEy">
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="82"/>
+                                <color key="textColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nau-iK-6xt">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="WAd-GA-gJP"/>
+                                    <constraint firstAttribute="height" constant="50" id="qVz-Yi-EXm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                <state key="normal" title="Play" backgroundImage="nature">
+                                    <color key="titleColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BT0-58-IjN">
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                <state key="normal" title="Info" backgroundImage="nature">
+                                    <color key="titleColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BT0-58-IjN" firstAttribute="leading" secondItem="Nau-iK-6xt" secondAttribute="leading" id="7cb-uW-eBC"/>
+                            <constraint firstItem="Nau-iK-6xt" firstAttribute="top" secondItem="V8G-qb-AEy" secondAttribute="bottom" constant="40" id="C9Q-JI-v8A"/>
+                            <constraint firstItem="V8G-qb-AEy" firstAttribute="centerX" secondItem="H14-Nn-Igf" secondAttribute="centerX" id="Hp1-Qi-n7S"/>
+                            <constraint firstItem="BT0-58-IjN" firstAttribute="width" secondItem="Nau-iK-6xt" secondAttribute="width" id="Jve-Mv-p4z"/>
+                            <constraint firstItem="Nau-iK-6xt" firstAttribute="centerX" secondItem="H14-Nn-Igf" secondAttribute="centerX" id="VNu-UM-dc0"/>
+                            <constraint firstItem="BT0-58-IjN" firstAttribute="height" secondItem="Nau-iK-6xt" secondAttribute="height" id="dXi-wf-NLR"/>
+                            <constraint firstItem="BT0-58-IjN" firstAttribute="top" secondItem="Nau-iK-6xt" secondAttribute="bottom" constant="25" id="dnt-ay-nS2"/>
+                            <constraint firstItem="2bH-iP-Oqf" firstAttribute="leading" secondItem="H14-Nn-Igf" secondAttribute="leading" id="e7e-oa-sbo"/>
+                            <constraint firstItem="V8G-qb-AEy" firstAttribute="centerY" secondItem="H14-Nn-Igf" secondAttribute="centerY" multiplier="0.6" id="eQ0-ty-fmz"/>
+                            <constraint firstAttribute="bottom" secondItem="2bH-iP-Oqf" secondAttribute="bottom" id="fbh-ql-RBz"/>
+                            <constraint firstAttribute="trailing" secondItem="2bH-iP-Oqf" secondAttribute="trailing" id="hgW-dL-3tI"/>
+                            <constraint firstItem="2bH-iP-Oqf" firstAttribute="top" secondItem="H14-Nn-Igf" secondAttribute="top" id="yWf-AH-bEG"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="hJu-WT-GE2"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Z6-wj-bFL" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="757.97101449275374" y="-161.41304347826087"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="nature" width="512" height="682"/>
+    </resources>
 </document>
