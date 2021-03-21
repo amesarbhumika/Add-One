@@ -34,9 +34,15 @@ That is, 3864⁣⁣
 ⬇️Features⬇️⁣⁣
 ⁣⁣
 ✔️Nature lovers are surely going to fall for the eye - catching User Interface of Add One!⁣⁣
+
 ✔️It will help users speed up their calculation levels by having a limited time to answer.⁣⁣
+
 ✔️Levels vary from easy to hard to give you the thrilling experience of Add One! As you go from easy to hard level, time is going to get decreased, so you need to work really hard to get a good score!⁣⁣
+
 ✔️Add One requires no internet connection, so you can play it even if you are not in proper network areas! Enjoy!⁣⁣
+
 ✔️No third - party libraries involved!⁣⁣
+
 ✔️Parents can check their child's Mathematics subject growth by conducting a test via this game, so yes, child can play and learn with Add One!⁣⁣
+
 ✔️Simple Interface - Anyone even kids can easily play the game.
