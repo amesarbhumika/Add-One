@@ -18,13 +18,17 @@ I got inspired by the concept of the game and thought to extend it furthur by ad
 🔅The goal of Add One is to add 1 to each of the numbers of a 4-digit sequence, as many times as you can in limited seconds.⁣⁣
 
 🔅Let me make you understand this with an example, assume, question is 2753, so the right answer to this question should be:⁣⁣ ⁣ 
-2 + 1 = 3⁣ 
-7 + 1 = 8⁣ 
+
+2 + 1 = 3⁣
+
+7 + 1 = 8⁣
+
 5 + 1 = 6⁣⁣
+
 3 + 1 = 4
 
 That is, 3864⁣⁣
-⁣
+
 🔅Levels🔅⁣⁣
 
 🔶Easy: Player gets 90 seconds. If you enter right answer score gets increased by 1. As this is easy level, you have no disadvantage on entering the wrong answer. No score cut on wrong answer. Enjoy!⁣⁣
