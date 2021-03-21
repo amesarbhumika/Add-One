@@ -14,9 +14,9 @@ I got inspired by the concept of the game and thought to extend it furthur by ad
 
 
 ⬇️Objective⬇️⁣⁣
-⁣⁣
+
 🔅The goal of Add One is to add 1 to each of the numbers of a 4-digit sequence, as many times as you can in limited seconds.⁣⁣
-⁣⁣
+
 🔅Let me make you understand this with an example, assume, question is 2753, so the right answer to this question should be:⁣⁣ ⁣ 
 2 + 1 = 3⁣ 
 7 + 1 = 8⁣ 
